@@ -23,7 +23,7 @@ export interface PostCardProps {
 }
 
 export interface UserProps {
-  Name : string
-  Email : string
+  name : string
+  email : string
   address : string
 }
