@@ -2,7 +2,7 @@ import React, { useState, FormEvent } from 'react';
 import { PostModalProps } from '@/interfaces';
 
 
-const PostModal: React.FC<PostModalProps> = ({ onSubmit, trigger }) => {
+const PostModal: React.FC<Omit<PostModalProps, 'trigger'> & { trigger?: React.ReactElement }> = ({ onSubmit, trigger }) => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [open, setOpen] = useState(false);
