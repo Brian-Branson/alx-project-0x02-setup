@@ -16,7 +16,7 @@ const Header = () => {
               <Link href="/about">about</Link>
             </li>
             <li className="hover:underline">
-              <Link href="/posts">posts</Link>
+              <Link href="/users">users</Link>
             </li>
           </ul>
         </nav>

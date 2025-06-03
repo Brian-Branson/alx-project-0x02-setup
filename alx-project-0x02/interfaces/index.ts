@@ -15,3 +15,15 @@ export interface ButtonProps {
   size?: "small" | "medium" | "large";
   shape?: "rounded-sm" | "rounded-full" | "rounded-md";
 }
+
+export interface PostCardProps {
+  title : string
+  content : ReactNode
+  userId : string
+}
+
+export interface UserProps {
+  Name : string
+  Email : string
+  address : string
+}
