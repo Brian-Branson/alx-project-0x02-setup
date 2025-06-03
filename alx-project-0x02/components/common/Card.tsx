@@ -1,9 +1,5 @@
 import React from 'react';
-
-interface CardProps {
-  title: string;
-  content: React.ReactNode;
-}
+import { CardProps } from '@/interfaces';
 
 const Card: React.FC<CardProps> = ({ title, content }) => (
   <div className="card">
